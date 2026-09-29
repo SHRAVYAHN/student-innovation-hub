@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Projects</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f8ff;
+        }
+
+        header {
+            background: #123c69;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        .title {
+            text-align: center;
+            padding: 50px 20px 30px;
+        }
+
+        .title h2 {
+            color: #123c69;
+            font-size: 38px;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 20px 8% 60px;
+        }
+
+        .project-card {
+            background: white;
+            width: 300px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+        }
+
+        .project-info {
+            padding: 20px;
+        }
+
+        .project-info h3 {
+            color: #123c69;
+            margin-bottom: 10px;
+        }
+
+        .project-info p {
+            line-height: 1.5;
+        }
+
+        .category {
+            display: inline-block;
+            background: #e5f1ff;
+            color: #123c69;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin-top: 12px;
+            font-size: 13px;
+        }
+
+        footer {
+            background: #123c69;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>💡 Innovation Hub</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+<section class="title">
+
+    <h2>Student Projects</h2>
+
+    <p>Explore some innovative student projects.</p>
+
+</section>
+
+<section class="projects">
+
+    <div class="project-card">
+
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+             alt="Technology project">
+
+        <div class="project-info">
+
+            <h3>Smart Door Security</h3>
+
+            <p>
+                A smart security system that uses sensors
+                to detect unauthorized door opening.
+            </p>
+
+            <span class="category">IoT</span>
+
+        </div>
+
+    </div>
+
+
+    <div class="project-card">
+
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+             alt="Data project">
+
+        <div class="project-info">
+
+            <h3>Student Performance Analysis</h3>
+
+            <p>
+                A data analysis project that helps understand
+                student academic performance.
+            </p>
+
+            <span class="category">Data Science</span>
+
+        </div>
+
+    </div>
+
+
+    <div class="project-card">
+
+        <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80"
+             alt="Robot">
+
+        <div class="project-info">
+
+            <h3>Smart Robot</h3>
+
+            <p>
+                A robotic system designed to perform
+                simple tasks using sensors.
+            </p>
+
+            <span class="category">Robotics</span>
+
+        </div>
+
+    </div>
+
+
+    <div class="project-card">
+
+        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80"
+             alt="Artificial intelligence">
+
+        <div class="project-info">
+
+            <h3>AI Assistant</h3>
+
+            <p>
+                An artificial intelligence project designed
+                to answer questions and assist users.
+            </p>
+
+            <span class="category">Artificial Intelligence</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Student Innovation Hub | CSE Department</p>
+
+</footer>
+
+</body>
+</html>

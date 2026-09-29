@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f8ff;
+        }
+
+        header {
+            background: #123c69;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        .contact-section {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: #123c69;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .contact-container {
+            max-width: 700px;
+            margin: 30px auto;
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .contact-info {
+            margin-bottom: 25px;
+            line-height: 2;
+        }
+
+        .contact-info h3 {
+            color: #123c69;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 13px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 120px;
+            resize: none;
+        }
+
+        button {
+            background: #123c69;
+            color: white;
+            border: none;
+            padding: 13px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0b2b4d;
+        }
+
+        footer {
+            background: #123c69;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media(max-width: 768px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>💡 Innovation Hub</h1>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+</header>
+
+
+<section class="contact-section">
+
+    <h2>Contact Us</h2>
+
+    <p>Have an innovative idea? Get in touch with us!</p>
+
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Student Innovation Hub</h3>
+
+            <p>📍 CSE Department</p>
+
+            <p>📧 innovationhub@example.com</p>
+
+            <p>📞 +91 98765 43210</p>
+
+        </div>
+
+
+        <form>
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <input type="text" placeholder="Project Name">
+
+            <textarea placeholder="Enter your message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>© 2026 Student Innovation Hub | CSE Department</p>
+
+</footer>
+
+</body>
+
+</html>
